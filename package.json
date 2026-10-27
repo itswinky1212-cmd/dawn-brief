@@ -1,0 +1,16 @@
+{
+  "name": "dawn-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A daily global affairs, medical engineering, career and psychiatry briefing.",
+  "scripts": {
+    "diagnose": "node scripts/diagnose.mjs",
+    "generate": "node scripts/fetch-briefing.mjs",
+    "check": "node scripts/check-data.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "timezone": "Asia/Taipei",
+  "news": [
+    {
+      "id": "bbc-world",
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "politics",
+      "weight": 1.15
+    },
+    {
+      "id": "bbc-business",
+      "name": "BBC Business",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "category": "economy",
+      "weight": 1.1
+    },
+    {
+      "id": "bbc-tech",
+      "name": "BBC Technology",
+      "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "category": "technology",
+      "weight": 1.1
+    },
+    {
+      "id": "bbc-culture",
+      "name": "BBC Culture",
+      "url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "category": "culture",
+      "weight": 1
+    },
+    {
+      "id": "guardian-world",
+      "name": "The Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "category": "politics",
+      "weight": 1.1
+    },
+    {
+      "id": "guardian-business",
+      "name": "The Guardian Business",
+      "url": "https://www.theguardian.com/business/rss",
+      "category": "economy",
+      "weight": 1.05
+    },
+    {
+      "id": "guardian-tech",
+      "name": "The Guardian Technology",
+      "url": "https://www.theguardian.com/technology/rss",
+      "category": "technology",
+      "weight": 1.05
+    },
+    {
+      "id": "guardian-culture",
+      "name": "The Guardian Culture",
+      "url": "https://www.theguardian.com/culture/rss",
+      "category": "culture",
+      "weight": 1
+    },
+    {
+      "id": "dw-top",
+      "name": "DW",
+      "url": "https://rss.dw.com/rdf/rss-en-top",
+      "category": "politics",
+      "weight": 1.05
+    },
+    {
+      "id": "al-jazeera",
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "politics",
+      "weight": 1
+    },
+    {
+      "id": "npr-world",
+      "name": "NPR World",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "category": "politics",
+      "weight": 0.95
+    },
+    {
+      "id": "npr-culture",
+      "name": "NPR Culture",
+      "url": "https://feeds.npr.org/1006/rss.xml",
+      "category": "culture",
+      "weight": 0.95
+    },
+    {
+      "id": "npr-culture-2",
+      "name": "NPR Arts",
+      "url": "https://feeds.npr.org/1008/rss.xml",
+      "category": "culture",
+      "weight": 0.95
+    },
+    {
+      "id": "cnbc-business",
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "category": "economy",
+      "weight": 1
+    },
+    {
+      "id": "science-daily-tech",
+      "name": "ScienceDaily Technology",
+      "url": "https://www.sciencedaily.com/rss/top/technology.xml",
+      "category": "technology",
+      "weight": 0.9
+    }
+  ],
+  "medtech": [
+    {
+      "id": "medtech-skills",
+      "name": "医工技能与产业动态",
+      "url": "https://news.google.com/rss/search?q=%28%22biomedical%20engineering%22%20OR%20%22medical%20device%22%20OR%20%22clinical%20engineering%22%29%20AND%20%28skills%20OR%20training%20OR%20career%20OR%20hiring%29&hl=en-US&gl=US&ceid=US:en",
+      "category": "medtech"
+    },
+    {
+      "id": "medical-career",
+      "name": "医学人才与转行动态",
+      "url": "https://news.google.com/rss/search?q=%28physician%20OR%20clinician%20OR%20nurse%29%20AND%20%28%22career%20transition%22%20OR%20%22medical%20affairs%22%20OR%20%22clinical%20informatics%22%20OR%20%22digital%20health%22%29&hl=en-US&gl=US&ceid=US:en",
+      "category": "career"
+    },
+    {
+      "id": "health-ai-workforce",
+      "name": "医疗 AI 与人才",
+      "url": "https://news.google.com/rss/search?q=%28%22healthcare%20AI%22%20OR%20%22clinical%20AI%22%29%20AND%20%28workforce%20OR%20jobs%20OR%20skills%29&hl=en-US&gl=US&ceid=US:en",
+      "category": "career"
+    },
+    {
+      "id": "medtech-regulation",
+      "name": "器械研发与监管",
+      "url": "https://news.google.com/rss/search?q=%28%22medical%20device%22%20OR%20%22medical%20technology%22%29%20AND%20%28FDA%20OR%20regulatory%20OR%20clinical%20trial%29&hl=en-US&gl=US&ceid=US:en",
+      "category": "medtech"
+    },
+    {
+      "id": "medical-device-network",
+      "name": "Medical Device Network",
+      "url": "https://www.medicaldevice-network.com/feed/",
+      "category": "medtech"
+    },
+    {
+      "id": "sciencedaily-health",
+      "name": "ScienceDaily Health",
+      "url": "https://www.sciencedaily.com/rss/top/health.xml",
+      "category": "medtech"
+    },
+    {
+      "id": "medpage-today",
+      "name": "MedPage Today",
+      "url": "https://www.medpagetoday.com/rss/headlines.xml",
+      "category": "career"
+    }
+  ],
+  "psychiatryJournals": [
+    "World Psychiatry",
+    "JAMA Psychiatry",
+    "Lancet Psychiatry",
+    "Molecular Psychiatry",
+    "Biological Psychiatry",
+    "American Journal of Psychiatry",
+    "Translational Psychiatry",
+    "British Journal of Psychiatry",
+    "Schizophrenia Bulletin",
+    "NPJ Schizophrenia",
+    "Psychiatry and Clinical Neurosciences",
+    "European Psychiatry",
+    "Psychological Medicine"
+  ]
+}

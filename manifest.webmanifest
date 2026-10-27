@@ -1,0 +1,18 @@
+{
+  "name": "晨鉴 Dawn Brief",
+  "short_name": "晨鉴",
+  "description": "每日全球、医工交叉、医学职业与精神医学简报",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f1eadb",
+  "theme_color": "#12221e",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

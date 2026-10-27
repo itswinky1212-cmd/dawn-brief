@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f1eadb">
+    <meta name="description" content="每天早上七点更新的全球新闻、医工交叉、医学职业与精神医学研究简报。">
+    <title>晨鉴 Dawn Brief · 每日全球与精神医学简报</title>
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="brand-copy">
+          <strong>晨鉴</strong>
+          <small>DAWN BRIEF</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#briefing">世界脉搏</a>
+        <a href="#medtech">医工与职业</a>
+        <a href="#research">精神医学</a>
+        <a href="#archive">往期</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="saved-toggle" type="button" aria-label="打开收藏">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6.5 4.5h11v16L12 17l-5.5 3.5z"/></svg>
+          <span class="button-label">收藏</span>
+          <span class="saved-count" id="saved-count">0</span>
+        </button>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深浅色">
+          <svg class="sun-icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-orbit" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="hero-meta reveal">
+          <p class="kicker">每日 07:00 · 台北时间</p>
+          <p class="issue-line"><span id="issue-date">正在读取今日简报</span><span class="issue-divider"></span><span id="edition-label">自动更新</span></p>
+        </div>
+        <div class="hero-copy">
+          <div class="hero-title-wrap reveal">
+            <p class="overline" id="overview-eyebrow">今日世界脉搏</p>
+            <h1 id="hero-title">把世界的变化，<br><em>变成你的判断。</em></h1>
+            <p class="hero-summary" id="overview-summary">正在汇集全球主要来源、医工交叉机会与高影响力精神医学论文。</p>
+          </div>
+          <aside class="edition-card reveal" aria-label="今日简报状态">
+            <div class="edition-rule"></div>
+            <p class="edition-number" id="edition-number">NO. 000</p>
+            <div class="edition-live">
+              <span class="live-dot" id="live-dot"></span>
+              <span id="generated-label">正在同步</span>
+            </div>
+            <p class="edition-note">事实、推断与影响分层呈现。<br>每一条都可追溯至原始来源。</p>
+            <div class="edition-clock">
+              <span>下一次更新</span>
+              <strong id="next-update">07:00</strong>
+            </div>
+          </aside>
+        </div>
+        <div class="signal-grid reveal" id="overview-signals" aria-live="polite"></div>
+        <details class="notice-panel" id="notice-panel" hidden>
+          <summary id="notice-summary">阅读与数据状态</summary>
+          <div id="notice-list"></div>
+        </details>
+      </section>
+
+      <section class="brief-section section-shell" id="briefing" aria-labelledby="briefing-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">01 / WORLD SIGNALS</p>
+            <h2 id="briefing-title">世界脉搏</h2>
+          </div>
+          <p class="section-deck">每天只保留 6 条真正值得花时间的事件。按影响力和地区平衡筛选，拆开事实、前因后果与生活落点。</p>
+        </div>
+
+        <div class="stats-row reveal" id="brief-stats" aria-label="今日覆盖统计"></div>
+
+        <div class="toolbar reveal">
+          <div class="filter-tabs" id="news-filters" role="group" aria-label="按新闻分类筛选">
+            <button class="filter-tab is-active" type="button" data-filter="all">全部</button>
+            <button class="filter-tab" type="button" data-filter="politics">政治与地缘</button>
+            <button class="filter-tab" type="button" data-filter="economy">经济与市场</button>
+            <button class="filter-tab" type="button" data-filter="technology">科技与创新</button>
+            <button class="filter-tab" type="button" data-filter="culture">文化与社会</button>
+          </div>
+          <label class="search-field">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+            <span class="sr-only">搜索今日新闻</span>
+            <input id="news-search" type="search" placeholder="搜索国家、主题或关键词" autocomplete="off">
+          </label>
+        </div>
+        <div class="story-grid" id="news-grid" aria-live="polite">
+          <div class="loading-card"><span></span><p>正在编排今日世界信号…</p></div>
+        </div>
+        <p class="empty-state" id="news-empty" hidden>没有匹配的新闻。试试其他分类或关键词。</p>
+      </section>
+
+      <aside class="daily-pause" aria-label="今日观察清单">
+        <p class="pause-mark">“</p>
+        <div>
+          <p class="pause-label">KEEP WATCHING</p>
+          <h2 id="watch-title">今天之后，继续看什么</h2>
+          <ul class="watch-list" id="watch-list">
+            <li>等待今日数据生成</li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="medtech-section section-shell" id="medtech" aria-labelledby="medtech-title">
+        <div class="section-heading light reveal">
+          <div>
+            <p class="section-index">02 / MED × TECH</p>
+            <h2 id="medtech-title">医工交叉与职业下一步</h2>
+          </div>
+          <p class="section-deck">从技术热点回看能力组合，从行业变化反推岗位入口。新闻不是职位公告，真正可用的信号必须落到技能、作品和可验证的经历。</p>
+        </div>
+
+        <div class="medtech-toolkit reveal">
+          <div class="toolkit-heading">
+            <p class="mini-label">SKILL STACK</p>
+            <h3>医工复合型人才的能力骨架</h3>
+            <p>将临床问题、工程方法和合规证据连成一条链，比单独追逐一个热门工具更有持续价值。</p>
+          </div>
+          <div class="skill-stack" id="skill-stack">
+            <div class="skill-row">
+              <span class="skill-number">01</span>
+              <div><strong>临床需求定义</strong><small>问题发现 · 工作流 · 用户研究</small></div>
+              <span class="skill-meter" aria-label="重要度 5 星"><i></i><i></i><i></i><i></i><i></i></span>
+            </div>
+            <div class="skill-row">
+              <span class="skill-number">02</span>
+              <div><strong>数据与算法素养</strong><small>Python · 统计 · 临床验证</small></div>
+              <span class="skill-meter" aria-label="重要度 5 星"><i></i><i></i><i></i><i></i><i></i></span>
+            </div>
+            <div class="skill-row">
+              <span class="skill-number">03</span>
+              <div><strong>器械法规与质量</strong><small>ISO 13485 · FDA / NMPA · 风险管理</small></div>
+              <span class="skill-meter" aria-label="重要度 4 星"><i></i><i></i><i></i><i></i><i class="dim"></i></span>
+            </div>
+            <div class="skill-row">
+              <span class="skill-number">04</span>
+              <div><strong>产品化与沟通</strong><small>证据转译 · 原型 · 跨团队协作</small></div>
+              <span class="skill-meter" aria-label="重要度 4 星"><i></i><i></i><i></i><i></i><i class="dim"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="medtech-main">
+          <div class="medtech-feed-wrap reveal">
+            <div class="subsection-title">
+              <div>
+                <p class="mini-label">LATEST SIGNALS</p>
+                <h3>今日四条行业信号</h3>
+              </div>
+              <span class="live-tag"><i></i> 每日检索</span>
+            </div>
+            <div class="medtech-feed" id="medtech-feed">
+              <div class="loading-line"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+
+          <aside class="career-rail reveal">
+            <div class="career-panel">
+              <p class="mini-label">CAREER DOORS</p>
+              <h3>招聘与转型入口</h3>
+              <p class="panel-note">稳定入口，不代表具体职位。先以岗位描述校准技能差距，再约信息访谈。</p>
+              <a class="portal-link" href="https://www.nature.com/naturecareers/" target="_blank" rel="noopener noreferrer">
+                <span><strong>Nature Careers</strong><small>全球科研与生命科学职位</small></span><span aria-hidden="true">↗</span>
+              </a>
+              <a class="portal-link" href="https://jobs.sciencecareers.org/" target="_blank" rel="noopener noreferrer">
+                <span><strong>Science Careers</strong><small>科研、转化医学与产业岗位</small></span><span aria-hidden="true">↗</span>
+              </a>
+              <a class="portal-link" href="https://careers.bmj.com/" target="_blank" rel="noopener noreferrer">
+                <span><strong>BMJ Careers</strong><small>临床、公共卫生与医学编辑</small></span><span aria-hidden="true">↗</span>
+              </a>
+              <a class="portal-link" href="https://www.linkedin.com/jobs/search/?keywords=Clinical%20Informatics" target="_blank" rel="noopener noreferrer">
+                <span><strong>Clinical Informatics</strong><small>链接到 LinkedIn 公开职位搜索</small></span><span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="transition-card">
+              <p class="mini-label">A SMALL EXPERIMENT</p>
+              <h3>用两周验证一次转行假设</h3>
+              <ol>
+                <li><span>1</span>收集 10 个目标岗位，标记重复要求。</li>
+                <li><span>2</span>用公开数据做一个最小分析或临床流程原型。</li>
+                <li><span>3</span>找 2 位从业者验证：问题是否真实、证据是否够。</li>
+              </ol>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="research-section section-shell" id="research" aria-labelledby="research-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-index">03 / PSYCHIATRY REVIEW</p>
+            <h2 id="research-title">精神医学研究雷达</h2>
+          </div>
+          <p class="section-deck">每天只选 5 篇高影响力期刊论文。先看研究设计和主要结局，再看临床意义；单篇结果不等于诊疗指南。</p>
+        </div>
+        <div class="research-disclaimer reveal">
+          <span class="disclaimer-icon">i</span>
+          <p><strong>关于 JCR 分区：</strong>本页使用高影响力期刊白名单作实用筛选，不实时调用 Clarivate JCR。考核、投稿或晋升请以当年官方分区和期刊官网为准。</p>
+        </div>
+        <div class="research-list" id="research-list" aria-live="polite">
+          <div class="loading-card"><span></span><p>正在读取 PubMed 最新论文…</p></div>
+        </div>
+      </section>
+
+      <section class="method-section section-shell">
+        <div class="method-title reveal">
+          <p class="section-index">04 / METHOD</p>
+          <h2>如何读这份简报</h2>
+        </div>
+        <div class="method-grid reveal">
+          <article>
+            <span>01</span>
+            <h3>事实</h3>
+            <p>来自新闻摘要或论文摘要，只保留足以判断事件的短段落，并始终链接原文。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>推断</h3>
+            <p>解释直接背景、可能因果链和待验证环节。模型分析是假设，不是隐藏事实。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>影响</h3>
+            <p>落到出行、消费、工作、技能或信息风险。医疗与投资决策不应只依赖自动摘要。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="archive-section section-shell" id="archive" aria-labelledby="archive-title">
+        <div class="section-heading compact reveal">
+          <div>
+            <p class="section-index">ARCHIVE</p>
+            <h2 id="archive-title">往期留档</h2>
+          </div>
+          <p class="section-deck">每日 JSON 同时提交到 GitHub 仓库，保留内容快照与来源变化。</p>
+        </div>
+        <div class="archive-grid reveal" id="archive-grid">
+          <p class="archive-empty">归档索引将在第一次自动更新后出现。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <strong>晨鉴</strong>
+        <span>DAWN BRIEF</span>
+      </div>
+      <div class="footer-copy">
+        <p>全球视野，本地判断。每天 07:00（Asia/Taipei）更新。</p>
+        <p>新闻来自公开 RSS 与 PubMed。内容仅用于信息整理，不构成医疗、法律或投资建议。</p>
+      </div>
+      <a href="#top" class="back-top">回到顶部 ↑</a>
+    </footer>
+
+    <dialog class="saved-dialog" id="saved-dialog">
+      <div class="dialog-heading">
+        <div>
+          <p class="mini-label">READING LIST</p>
+          <h2>稍后阅读</h2>
+        </div>
+        <button class="close-button" id="saved-close" type="button" aria-label="关闭收藏面板">×</button>
+      </div>
+      <div id="saved-list" class="saved-list"></div>
+      <button class="text-button" id="saved-clear" type="button">清空全部</button>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

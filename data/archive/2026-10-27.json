@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T13:35:22.262Z",
+  "briefingDate": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "edition": "第 2026.10.27 期",
+  "analysisMode": "rules",
+  "overview": {
+    "eyebrow": "今日世界脉搏",
+    "title": "今天，只看真正重要的。",
+    "summary": "本版按来源可靠性、时效性、跨地区影响和与医疗职业读者的相关性排序。新闻摘要与推断分开呈现，重要决定仍应回到原始来源。",
+    "generatedAt": "2026-10-27T13:35:22.262Z",
+    "items": [
+      {
+        "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+        "text": "Democrats are still holding a slight edge with Election Day a week away, according to a new NPR/PBS News/Marist poll. And, Israelis are casting their votes in an election that could change leadership.",
+        "source": "NPR World",
+        "category": "政治与地缘"
+      },
+      {
+        "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+        "text": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space…",
+        "source": "ScienceDaily Technology",
+        "category": "科技与创新"
+      },
+      {
+        "title": "Polymarket has investigated 'dozens' of election-related cases",
+        "text": "The prediction market has hired a former FBI official to make sure political insiders don't use the platform for profit from confidential election information.",
+        "source": "NPR Culture",
+        "category": "经济与市场"
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": "news-4f3521a9cd3d",
+      "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+      "description": "Democrats are still holding a slight edge with Election Day a week away, according to a new NPR/PBS News/Marist poll. And, Israelis are casting their votes in an election that could change leadership.",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
+      "publishedAt": "2026-10-27T11:39:52.000Z",
+      "source": "NPR World",
+      "sourceId": "npr-world",
+      "category": "politics",
+      "sourceWeight": 0.95,
+      "categoryLabel": "政治与地缘",
+      "country": "全球",
+      "importance": 2,
+      "headlineZh": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+      "summaryZh": "Democrats are still holding a slight edge with Election Day a week away, according to a new NPR/PBS News/Marist poll. And, Israelis are casting their votes in an election that could change leadership.",
+      "contextZh": "当前未启用语言模型，无法在可靠约束下自动推断前因后果。请结合原文中的时间线、政策主体与相关方回应进行判断。",
+      "impactZh": "关注签证、跨境出行、监管与公共政策变化；若涉及冲突或贸易措施，先核对官方公告，再调整旅行与长期计划。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "news-76803fdd79e7",
+      "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+      "description": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space Telescope observations suggest that TOI-561 b reflects about 75% of incoming starlight, possibly because of mineral clouds that act like a giant sunscreen. The planet may also be continually replenishing its atmosphere through gases released from a global ocean of molten rock.",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225603.htm",
+      "publishedAt": "2026-10-27T10:20:52.000Z",
+      "source": "ScienceDaily Technology",
+      "sourceId": "science-daily-tech",
+      "category": "technology",
+      "sourceWeight": 0.9,
+      "categoryLabel": "科技与创新",
+      "country": "全球",
+      "importance": 2,
+      "headlineZh": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+      "summaryZh": "A scorching lava planet 280 light-years away has surprised astronomers by apparently maintaining a thick atmosphere despite conditions that should have stripped it away billions of years ago. James Webb Space…",
+      "contextZh": "当前未启用语言模型，无法在可靠约束下自动推断前因后果。请结合原文中的时间线、政策主体与相关方回应进行判断。",
+      "impactZh": "重点判断它是否改变工作工具、数据合规或技能需求；同时检查隐私、误差与供应商依赖等落地风险。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "news-a95fa27c87fa",
+      "title": "Polymarket has investigated 'dozens' of election-related cases",
+      "description": "The prediction market has hired a former FBI official to make sure political insiders don't use the platform for profit from confidential election information.",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6012304/polymarket-election-betting-surveillance",
+      "publishedAt": "2026-10-27T09:00:00.000Z",
+      "source": "NPR Culture",
+      "sourceId": "npr-culture",
+      "category": "economy",
+      "sourceWeight": 0.95,
+      "categoryLabel": "经济与市场",
+      "country": "全球",
+      "importance": 2,
+      "headlineZh": "Polymarket has investigated 'dozens' of election-related cases",
+      "summaryZh": "The prediction market has hired a former FBI official to make sure political insiders don't use the platform for profit from confidential election information.",
+      "contextZh": "当前未启用语言模型，无法在可靠约束下自动推断前因后果。请结合原文中的时间线、政策主体与相关方回应进行判断。",
+      "impactZh": "留意汇率、利率、能源与食品价格的传导。短期新闻不宜作为投资依据，应先观察政策和市场是否形成连续趋势。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "news-e736d8f21903",
+      "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+      "description": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv.",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "publishedAt": "2026-10-27T05:26:58.000Z",
+      "source": "NPR World",
+      "sourceId": "npr-world",
+      "category": "politics",
+      "sourceWeight": 0.95,
+      "categoryLabel": "政治与地缘",
+      "country": "美国",
+      "importance": 2,
+      "headlineZh": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+      "summaryZh": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv.",
+      "contextZh": "当前未启用语言模型，无法在可靠约束下自动推断前因后果。请结合原文中的时间线、政策主体与相关方回应进行判断。",
+      "impactZh": "关注签证、跨境出行、监管与公共政策变化；若涉及冲突或贸易措施，先核对官方公告，再调整旅行与长期计划。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "news-07203f589a75",
+      "title": "World Bank's Banga: Availability of capital 'not really an issue' as AI demand drives up borrowing costs",
+      "description": "",
+      "url": "https://www.cnbc.com/2026/10/27/world-bank-president-ajay-banga.html",
+      "publishedAt": "2026-10-27T12:50:13.000Z",
+      "source": "CNBC",
+      "sourceId": "cnbc-business",
+      "category": "economy",
+      "sourceWeight": 1,
+      "categoryLabel": "经济与市场",
+      "country": "全球",
+      "importance": 2,
+      "headlineZh": "World Bank's Banga: Availability of capital 'not really an issue' as AI demand drives up borrowing costs",
+      "summaryZh": "原文未提供摘要，请打开来源阅读。",
+      "contextZh": "当前未启用语言模型，无法在可靠约束下自动推断前因后果。请结合原文中的时间线、政策主体与相关方回应进行判断。",
+      "impactZh": "留意汇率、利率、能源与食品价格的传导。短期新闻不宜作为投资依据，应先观察政策和市场是否形成连续趋势。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "news-e22dcf9162aa",
+      "title": "Jay-Z picks himself to headline the Super Bowl halftime show in Southern California",
+      "description": "The NFL, Apple Music and Roc Nation announced Monday night that Jay-Z will be the featured performer for the halftime festivities on Feb. 14 at SoFi Stadium in Inglewood, California.",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150043/super-bowl-halftime-jay-z",
+      "publishedAt": "2026-10-27T05:46:18.000Z",
+      "source": "NPR Arts",
+      "sourceId": "npr-culture-2",
+      "category": "culture",
+      "sourceWeight": 0.95,
+      "categoryLabel": "文化与社会",
+      "country": "全球",
+      "importance": 2,
+      "headlineZh": "Jay-Z picks himself to headline the Super Bowl halftime show in Southern California",
+      "summaryZh": "The NFL, Apple Music and Roc Nation announced Monday night that Jay-Z will be the featured performer for the halftime festivities on Feb. 14 at SoFi Stadium in Inglewood, California.",
+      "contextZh": "当前未启用语言模型，无法在可靠约束下自动推断前因后果。请结合原文中的时间线、政策主体与相关方回应进行判断。",
+      "impactZh": "观察它如何改变教育、媒体、社会规范与公共讨论；文化议题常通过政策和平台规则间接影响日常生活。",
+      "analysisMode": "rules"
+    }
+  ],
+  "medtech": [
+    {
+      "id": "medtech-05f93e9796bf",
+      "title": "The secret to slower aging may be hiding in your gut",
+      "description": "The secret to aging more slowly may be hiding in your gut. Scientists discovered that certain gut bacteria are strongly linked to how quickly the body ages, with microbial differences accounting for about 15% of the variation in biological aging rates. Some bacterial species were associated with slower aging, while others were linked to accelerated aging.",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225620.htm",
+      "publishedAt": "2026-10-27T11:53:24.000Z",
+      "source": "ScienceDaily Health",
+      "sourceId": "sciencedaily-health",
+      "category": "medtech",
+      "sourceWeight": 1,
+      "country": "全球",
+      "titleZh": "The secret to slower aging may be hiding in your gut",
+      "takeawayZh": "The secret to aging more slowly may be hiding in your gut. Scientists discovered that certain gut bacteria are strongly linked to how quickly the body ages, with microbial differences accou…",
+      "skillZh": "优先核对岗位要求中的数据分析、法规事务、临床验证、系统工程或跨团队沟通能力。",
+      "careerZh": "可把这条信息转化为一次职业信息访谈、岗位关键词搜索，或一个小型可展示项目。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "medtech-81c56c5a7990",
+      "title": "Menopausal Hormone Therapy May Boost GLP-1 Weight Loss",
+      "description": "(MedPage Today) -- Menopausal women taking hormone therapy in addition to a GLP-1 medication may see greater and sustained weight loss, a retrospective cohort study suggested. Women taking semaglutide (Wegovy) and menopausal hormone therapy had...]]>",
+      "url": "https://www.medpagetoday.com/meetingcoverage/tms/123594",
+      "publishedAt": "2026-10-27T12:35:11.000Z",
+      "source": "MedPage Today",
+      "sourceId": "medpage-today",
+      "category": "career",
+      "sourceWeight": 1,
+      "country": "全球",
+      "titleZh": "Menopausal Hormone Therapy May Boost GLP-1 Weight Loss",
+      "takeawayZh": "(MedPage Today) -- Menopausal women taking hormone therapy in addition to a GLP-1 medication may see greater and sustained weight loss, a retrospective cohort study suggested. Women taking…",
+      "skillZh": "优先核对岗位要求中的数据分析、法规事务、临床验证、系统工程或跨团队沟通能力。",
+      "careerZh": "可把这条信息转化为一次职业信息访谈、岗位关键词搜索，或一个小型可展示项目。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "medtech-a699114a3c95",
+      "title": "Common drugs may help dangerous viruses spread through the body",
+      "description": "A surprising discovery reveals that widely used anti-inflammatory drugs may unintentionally help dangerous viruses spread through the body. Scientists found that JAK inhibitors, prescribed for rheumatoid arthritis and other inflammatory diseases, can weaken a crucial immune defense against influenza, COVID-19, and other infections. By suppressing genes that normally fight viruses, these medications may leave patients more vulnerable to infection.",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225606.htm",
+      "publishedAt": "2026-10-27T10:46:21.000Z",
+      "source": "ScienceDaily Health",
+      "sourceId": "sciencedaily-health",
+      "category": "medtech",
+      "sourceWeight": 1,
+      "country": "全球",
+      "titleZh": "Common drugs may help dangerous viruses spread through the body",
+      "takeawayZh": "A surprising discovery reveals that widely used anti-inflammatory drugs may unintentionally help dangerous viruses spread through the body. Scientists found that JAK inhibitors, prescribed…",
+      "skillZh": "优先核对岗位要求中的数据分析、法规事务、临床验证、系统工程或跨团队沟通能力。",
+      "careerZh": "可把这条信息转化为一次职业信息访谈、岗位关键词搜索，或一个小型可展示项目。",
+      "analysisMode": "rules"
+    },
+    {
+      "id": "medtech-132374d46dd5",
+      "title": "Low testosterone may make sugar far more harmful to your liver",
+      "description": "Scientists have discovered that low testosterone and a high-fructose diet can work together to worsen fatty liver disease in mice. Unexpectedly, changes in gut bacteria appear to drive this harmful interaction, revealing a potential new target for preventing liver damage.",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261026225622.htm",
+      "publishedAt": "2026-10-27T11:18:37.000Z",
+      "source": "ScienceDaily Health",
+      "sourceId": "sciencedaily-health",
+      "category": "medtech",
+      "sourceWeight": 1,
+      "country": "全球",
+      "titleZh": "Low testosterone may make sugar far more harmful to your liver",
+      "takeawayZh": "Scientists have discovered that low testosterone and a high-fructose diet can work together to worsen fatty liver disease in mice. Unexpectedly, changes in gut bacteria appear to drive this…",
+      "skillZh": "优先核对岗位要求中的数据分析、法规事务、临床验证、系统工程或跨团队沟通能力。",
+      "careerZh": "可把这条信息转化为一次职业信息访谈、岗位关键词搜索，或一个小型可展示项目。",
+      "analysisMode": "rules"
+    }
+  ],
+  "medtechAsOf": "2026-10-27T13:35:22.262Z",
+  "research": [
+    {
+      "id": "pmid-42929238",
+      "pmid": "42929238",
+      "title": "Longitudinal changes in cognitive biases mediate the association between stress exposure and psychotic-like experiences: Findings from a general population study.",
+      "abstract": "Background Exposure to stress is a well-established risk factor for psychotic experiences, yet the cognitive mechanisms underlying this association remain insufficiently understood. This study examined whether longitudinal changes in cognitive biases mediate the relationship between stress exposure and changes in psychotic-like experiences (PLEs) in the general population sample of adults aged 18-40 years. Methods Adults without a history of psychiatric treatment were assessed at baseline and at 12-month follow-up. Change-score mediation models with bootstrap confidence intervals were estimated, adjusting for age, gender, and education. Results Of 5,126 adults who completed the baseline assessment, 2,290 (44.7%) participated in the follow-up. Greater stress exposure predicted increases in PLEs, negative, and depressive symptoms. After correction for multiple testing, significant indirect effects consistent with mediation by cognitive biases were observed for PLEs, but not for negative or depressive symptoms. These effects were significant for changes in belief inflexibility, safety behaviors, external attribution, and subjective cognitive and social cognitive problems, but not for attention to threat or jumping to conclusions. Reverse mediation models indicated consistently smaller indirect effects. In parallel multiple-mediator models, no individual bias showed a unique indirect effect on PLEs, yet the total indirect effect remained significant, suggesting mediation through interrelated biases. Social cognitive problems emerged as the only bias with a specific indirect effect on negative and depressive symptoms. Conclusions Longitudinal changes in cognitive biases might represent an indirect pathway to the association between stress exposure and increases in PLEs. These findings highlight cognitive biases as potential targets for preventive interventions.",
+      "journal": "Psychological Medicine",
+      "doi": "10.1017/s0033291726105819",
+      "publicationDate": "2026-10-26T12:00:00.000Z",
+      "studyType": "队列 / 纵向研究",
+      "sample": "",
+      "publicationTypes": "Journal Article",
+      "keywords": [
+        "Stress",
+        "Longitudinal study",
+        "early intervention",
+        "Cognitive Bias",
+        "Psychotic Experiences",
+        "Humans"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42929238/",
+      "journalTier": "高影响力期刊池",
+      "jcrDisclaimer": "期刊筛选基于高影响力精神医学期刊池；具体 JCR 分区以 Clarivate 当年数据为准。",
+      "titleZh": "Longitudinal changes in cognitive biases mediate the association between stress exposure and psychotic-like experiences: Findings from a general population study.",
+      "summaryZh": "Background Exposure to stress is a well-established risk factor for psychotic experiences, yet the cognitive mechanisms underlying this association remain insufficiently understood. This study examined whether longitudinal changes in cognitive biases mediate…",
+      "methodZh": "队列 / 纵向研究。",
+      "resultZh": "请阅读论文摘要与全文，优先查看主要结局、效应量与置信区间；系统未启用模型时不会推断具体结果。",
+      "clinicalZh": "先判断研究人群、干预或暴露、对照和结局是否适用于你的临床场景，不要仅凭一则新闻改变诊疗。",
+      "caveatZh": "观察性结果通常不能证明因果；单中心、小样本或短期随访均会限制外推。请核对预注册、偏倚风险和同期评论。",
+      "analysisMode": "rules",
+      "rank": 1,
+      "evidenceLevel": "中",
+      "tags": [
+        "Stress",
+        "Longitudinal study",
+        "early intervention",
+        "Cognitive Bias"
+      ]
+    },
+    {
+      "id": "pmid-42928374",
+      "pmid": "42928374",
+      "title": "Genome-wide analysis identifies pleiotropic genes shared between severe mental disorders and biomarkers of cellular aging.",
+      "abstract": "Severe mental disorders such as bipolar disorder (BD), major depressive disorder (MDD) and schizophrenia (SZ) are characterized by reduced life expectancy, premature mortality and alterations of aging biomarkers, leading to hypothesize that they might be associated with accelerated cellular aging. We quantified the genetic overlap between severe mental disorders and a comprehensive set of aging biomarkers including multivariate longevity and healthy aging (mvAge), brain age gap (BAG), leucocyte telomere length (gLTL), mitochondrial DNA copy number and epigenetic age acceleration (gEAA) using cutting-edge methods, and evaluated their functional enrichment and suitability as drug targets. All disorders were negatively correlated with mvAge. Further, MDD correlated negatively with gLTL and positively with gEAA. We identified several pleiotropic variants, with nine genes (AC068490.2, ASIC2, CNNM2, FURIN, GPM6A, HS6ST3, RP5-1043L13.1, SORCS3 and SP4) containing variants shared between aging biomarkers and all disorders. Functional analyses with summary-data-based Mendelian randomization showed that increased expression of the druggable gene CRHR1 in the prefrontal cortex was associated with increased risk of MDD and BAG measures. Our findings suggest that shared heritability might contribute to reduced longevity and healthy aging in severe mental disorders and identify pleiotropic genes involved in synaptic function and metabolic processes related to micronutrients such as folate and magnesium.",
+      "journal": "Molecular Psychiatry",
+      "doi": "10.1038/s41380-026-03946-0",
+      "publicationDate": "2026-10-25T12:00:00.000Z",
+      "studyType": "遗传学 / 孟德尔随机化",
+      "sample": "",
+      "publicationTypes": "Journal Article",
+      "keywords": [],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928374/",
+      "journalTier": "高影响力期刊池",
+      "jcrDisclaimer": "期刊筛选基于高影响力精神医学期刊池；具体 JCR 分区以 Clarivate 当年数据为准。",
+      "titleZh": "Genome-wide analysis identifies pleiotropic genes shared between severe mental disorders and biomarkers of cellular aging.",
+      "summaryZh": "Severe mental disorders such as bipolar disorder (BD), major depressive disorder (MDD) and schizophrenia (SZ) are characterized by reduced life expectancy, premature mortality and alterations of aging biomarkers, leading to hypothesize that they might be asso…",
+      "methodZh": "遗传学 / 孟德尔随机化。",
+      "resultZh": "请阅读论文摘要与全文，优先查看主要结局、效应量与置信区间；系统未启用模型时不会推断具体结果。",
+      "clinicalZh": "先判断研究人群、干预或暴露、对照和结局是否适用于你的临床场景，不要仅凭一则新闻改变诊疗。",
+      "caveatZh": "观察性结果通常不能证明因果；单中心、小样本或短期随访均会限制外推。请核对预注册、偏倚风险和同期评论。",
+      "analysisMode": "rules",
+      "rank": 3,
+      "evidenceLevel": "低",
+      "tags": []
+    },
+    {
+      "id": "pmid-42918748",
+      "pmid": "42918748",
+      "title": "Altered GABA B receptor sensitivity in heavy drinkers indexed using a TMS-based biomarker: a randomized controlled experimental medicine trial.",
+      "abstract": "Metabotropic γ-aminobutyric acid type B receptors (GABA B Rs) are implicated in alcohol use disorder (AUD) and represent a promising therapeutic target. However, robust biomarkers of GABA B Rs target engagement and sensitivity in humans are lacking. We examined transcranial magnetic stimulation (TMS)-derived cortical inhibition and growth hormone (GH) release as measures of GABA B R function, and whether heavy alcohol use is associated with altered responses to pharmacological GABA B R activation. In a randomized, double-blind, placebo-controlled crossover study, 31 healthy volunteers (16 heavy drinkers, 15 light drinkers) received baclofen 30 mg, baclofen 60 mg, or placebo across three sessions. Long-interval intracortical inhibition (LICI), short-interval intracortical inhibition, and intracortical facilitation were assessed with paired-pulse TMS at baseline and ~60 min post-dose. Baclofen blood concentrations and plasma GH levels were measured. Baclofen produced dose-dependent increases in GH release, confirming neuroendocrine GABA B R engagement. The LICI response to baclofen differed between groups: In light drinkers, baclofen at 30 mg potentiated LICI, and a similar potentiation was seen at 60 mg, indicating that a plateau may have been reached. In contrast, in heavy drinkers, a potentiation of LICI similar to that in light drinkers was seen at 30 mg baclofen, but was absent at the 60 mg dose despite comparable pharmacokinetics, suggesting altered GABA B R function. Effects were selective for GABA B R-mediated inhibition, with no consistent modulation of short-interval intracortical inhibition or corticospinal excitability. Acute baclofen administration reveals altered GABA B R sensitivity in heavy drinkers, with preserved responses at lower doses but reduced response under stronger agonist stimulation. LICI and GH release provide complementary biomarkers of central and peripheral GABA B Rs engagement and may support translational development of mechanism-based treatments for AUD.",
+      "journal": "Translational Psychiatry",
+      "doi": "10.1038/s41398-026-04530-4",
+      "publicationDate": "2026-10-23T12:00:00.000Z",
+      "studyType": "随机对照试验",
+      "sample": "",
+      "publicationTypes": "Randomized Controlled Trial; Journal Article",
+      "keywords": [
+        "Humans",
+        "Alcoholism",
+        "Baclofen",
+        "Human Growth Hormone",
+        "Receptors, GABA-B",
+        "Cross-Over Studies"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918748/",
+      "journalTier": "高影响力期刊池",
+      "jcrDisclaimer": "期刊筛选基于高影响力精神医学期刊池；具体 JCR 分区以 Clarivate 当年数据为准。",
+      "titleZh": "Altered GABA B receptor sensitivity in heavy drinkers indexed using a TMS-based biomarker: a randomized controlled experimental medicine trial.",
+      "summaryZh": "Metabotropic γ-aminobutyric acid type B receptors (GABA B Rs) are implicated in alcohol use disorder (AUD) and represent a promising therapeutic target. However, robust biomarkers of GABA B Rs target engagement and sensitivity in humans are lacking. We examin…",
+      "methodZh": "随机对照试验。",
+      "resultZh": "请阅读论文摘要与全文，优先查看主要结局、效应量与置信区间；系统未启用模型时不会推断具体结果。",
+      "clinicalZh": "先判断研究人群、干预或暴露、对照和结局是否适用于你的临床场景，不要仅凭一则新闻改变诊疗。",
+      "caveatZh": "观察性结果通常不能证明因果；单中心、小样本或短期随访均会限制外推。请核对预注册、偏倚风险和同期评论。",
+      "analysisMode": "rules",
+      "rank": 8,
+      "evidenceLevel": "高",
+      "tags": [
+        "Humans",
+        "Alcoholism",
+        "Baclofen",
+        "Human Growth Hormone"
+      ]
+    },
+    {
+      "id": "pmid-42918370",
+      "pmid": "42918370",
+      "title": "Positive-affective and negative-cognitive brain-behavior axes in clinical high risk for psychosis.",
+      "abstract": "Background Individuals at clinical high risk for psychosis (CHR) present with heterogeneous combinations of positive, negative, and affective symptoms, cognitive difficulties, and functional impairment. However, reproducible multivariate links between this multidomain phenotype and brain morphology remain limited. This study explored the multivariate brain-behavior associations in CHR using a data-driven approach. Methods Baseline data from 720 CHR participants from the Accelerating Medicines Partnership® Schizophrenia program (AMP® SCZ) were analyzed using sparse canonical correlation analysis to identify associations between 95 regional brain volumes and 28 behavioral variables indexing symptoms, cognition, and functioning. Generalizability was tested using leave-one-network-out cross-validation (PRoNET and PRESCIENT), and stability was assessed using bootstrapping and leave-one-site-out analyses. Associations with demographic, clinical and site-related variables were examined. Results Two brain-behavior dimensions generalized across networks. A positive-affective axis (r=0.21-0.23), linking higher depression, anxiety/stress, positive symptoms and anhedonia with predominantly frontal-cingulate-insular volume reductions and relatively larger corpus callosum and putamen volumes. This axis was associated with comorbid depression, cannabis use and family history of depression or affective psychosis. A negative-cognitive axis (r=0.17-0.18) linked greater asociality, alogia, emotional withdrawal, blunted affect, and motor retardation, poorer cognition and functioning with reduced cerebellar and parietal volumes, and relatively larger lateral ventricles and corpus callosum. This axis was associated with lower IQ and poorer premorbid adjustment. Conclusions Two partially dissociable brain-behavior dimensions were identified: a positive-affective axis capturing the co-expression of affective and attenuated positive symptoms, and a negative-cognitive axis suggestive of neurodevelopmental vulnerability.",
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2026.09.029",
+      "publicationDate": "2026-10-23T12:00:00.000Z",
+      "studyType": "原始研究",
+      "sample": "",
+      "publicationTypes": "Journal Article",
+      "keywords": [
+        "Cognition",
+        "canonical correlation analysis",
+        "Symptoms",
+        "Brain Morphology",
+        "High-risk Psychosis",
+        "Brain-behavior Associations"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42918370/",
+      "journalTier": "高影响力期刊池",
+      "jcrDisclaimer": "期刊筛选基于高影响力精神医学期刊池；具体 JCR 分区以 Clarivate 当年数据为准。",
+      "titleZh": "Positive-affective and negative-cognitive brain-behavior axes in clinical high risk for psychosis.",
+      "summaryZh": "Background Individuals at clinical high risk for psychosis (CHR) present with heterogeneous combinations of positive, negative, and affective symptoms, cognitive difficulties, and functional impairment. However, reproducible multivariate links between this mu…",
+      "methodZh": "原始研究。",
+      "resultZh": "请阅读论文摘要与全文，优先查看主要结局、效应量与置信区间；系统未启用模型时不会推断具体结果。",
+      "clinicalZh": "先判断研究人群、干预或暴露、对照和结局是否适用于你的临床场景，不要仅凭一则新闻改变诊疗。",
+      "caveatZh": "观察性结果通常不能证明因果；单中心、小样本或短期随访均会限制外推。请核对预注册、偏倚风险和同期评论。",
+      "analysisMode": "rules",
+      "rank": 9,
+      "evidenceLevel": "低",
+      "tags": [
+        "Cognition",
+        "canonical correlation analysis",
+        "Symptoms",
+        "Brain Morphology"
+      ]
+    },
+    {
+      "id": "pmid-42910505",
+      "pmid": "42910505",
+      "title": "Effects of childhood maltreatment on emotional intelligence and psychosocial functioning in adult euthymic bipolar disorder patients compared with healthy controls.",
+      "abstract": "Background Childhood maltreatment (CM) has been linked to poor emotional intelligence (EI) and psychosocial functioning (PSF) in patients with bipolar disorder (BD). However, no study has investigated whether EI mediates the relationship between CM and PSF in patients with BD. Here, we aimed to assess the association of CM with EI and PSF in euthymic patients with BD compared with healthy controls (HCs). Methods We assessed 124 euthymic participants with a BD diagnosis and 124 HCs by means of the Mayer-Salovey-Caruso Emotional Intelligence Test, the Functioning Assessment Short Test and the Childhood Trauma Questionnaire. Linear regression models were constructed using CM categorized as no-CM, low/moderate-CM and high-CM. We subsequently assessed whether EI mediates the relationship between CM and PSF. Results Compared with HCs, patients with BD reported higher rates of CM and lower rates of PSF and EI. In the BD group, subjects who exhibited low/moderate CM obtained lower levels of PSF and EI than those with no-CM and high-CM levels. The regression models demonstrated that, compared with the no-CM category, the low/moderate CM category was inversely associated with EI strategic area scores in patients with BD. However, EI did not mediate the relationship between CM and PSF. Conclusions Low/moderate-CM was associated with the worst EI scores in BD. However, we did not observe any mediating effect of EI on the relationship between CM and PSF. Our results emphasize the importance of assessing CM in mental health and suggest that targeted therapies should be administered to affected patients.",
+      "journal": "European Psychiatry",
+      "doi": "10.1192/j.eurpsy.2026.12251",
+      "publicationDate": "2026-10-22T12:00:00.000Z",
+      "studyType": "原始研究",
+      "sample": "",
+      "publicationTypes": "Journal Article",
+      "keywords": [
+        "Bipolar disorder",
+        "Psychosocial Functioning",
+        "Emotional Intelligence",
+        "Euthymia",
+        "Childhood Maltreatment",
+        "Humans"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42910505/",
+      "journalTier": "高影响力期刊池",
+      "jcrDisclaimer": "期刊筛选基于高影响力精神医学期刊池；具体 JCR 分区以 Clarivate 当年数据为准。",
+      "titleZh": "Effects of childhood maltreatment on emotional intelligence and psychosocial functioning in adult euthymic bipolar disorder patients compared with healthy controls.",
+      "summaryZh": "Background Childhood maltreatment (CM) has been linked to poor emotional intelligence (EI) and psychosocial functioning (PSF) in patients with bipolar disorder (BD). However, no study has investigated whether EI mediates the relationship between CM and PSF in…",
+      "methodZh": "原始研究。",
+      "resultZh": "请阅读论文摘要与全文，优先查看主要结局、效应量与置信区间；系统未启用模型时不会推断具体结果。",
+      "clinicalZh": "先判断研究人群、干预或暴露、对照和结局是否适用于你的临床场景，不要仅凭一则新闻改变诊疗。",
+      "caveatZh": "观察性结果通常不能证明因果；单中心、小样本或短期随访均会限制外推。请核对预注册、偏倚风险和同期评论。",
+      "analysisMode": "rules",
+      "rank": 11,
+      "evidenceLevel": "低",
+      "tags": [
+        "Bipolar disorder",
+        "Psychosocial Functioning",
+        "Emotional Intelligence",
+        "Euthymia"
+      ]
+    }
+  ],
+  "researchAsOf": "2026-10-27T13:35:22.262Z",
+  "stats": {
+    "newsSources": 5,
+    "countries": 2,
+    "researchJournals": 5,
+    "medtechSignals": 4
+  },
+  "methodology": {
+    "news": "来源为公开 RSS；按时效、来源、跨地区影响和主题平衡筛选。相同事件会在标题层面去重。",
+    "medtech": "通过公开新闻检索聚合医工技能、医疗 AI、器械研发和医学职业动态，再链接到稳定招聘与职业资源入口。",
+    "research": "通过 PubMed 检索高影响力精神医学期刊池近两个月论文；JCR 分区应以 Clarivate 当年官方数据复核。",
+    "analysis": "事实摘要来自公开来源或论文摘要；模型分析明确标注为推断。重要决定请阅读原文。"
+  },
+  "notices": [
+    "当前为“基础分析模式”：只展示来源事实与规则化观察清单，不自动补写因果结论。配置模型后会恢复完整分析。"
+  ],
+  "debug": {
+    "modelErrors": [],
+    "failedSources": [
+      {
+        "source": "BBC World",
+        "error": "fetch failed"
+      },
+      {
+        "source": "BBC Business",
+        "error": "fetch failed"
+      },
+      {
+        "source": "BBC Technology",
+        "error": "fetch failed"
+      },
+      {
+        "source": "BBC Culture",
+        "error": "fetch failed"
+      },
+      {
+        "source": "The Guardian World",
+        "error": "fetch failed"
+      },
+      {
+        "source": "The Guardian Business",
+        "error": "fetch failed"
+      },
+      {
+        "source": "The Guardian Technology",
+        "error": "fetch failed"
+      },
+      {
+        "source": "The Guardian Culture",
+        "error": "fetch failed"
+      },
+      {
+        "source": "DW",
+        "error": "fetch failed"
+      },
+      {
+        "source": "Al Jazeera",
+        "error": "fetch failed"
+      },
+      {
+        "source": "医工技能与产业动态",
+        "error": "fetch failed"
+      },
+      {
+        "source": "医学人才与转行动态",
+        "error": "fetch failed"
+      },
+      {
+        "source": "医疗 AI 与人才",
+        "error": "fetch failed"
+      },
+      {
+        "source": "器械研发与监管",
+        "error": "fetch failed"
+      },
+      {
+        "source": "Medical Device Network",
+        "error": "fetch failed"
+      }
+    ]
+  },
+  "sourceHealth": [
+    {
+      "source": "BBC World",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "BBC Business",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "BBC Technology",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "BBC Culture",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "The Guardian World",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "The Guardian Business",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "The Guardian Technology",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "The Guardian Culture",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "DW",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "Al Jazeera",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "NPR World",
+      "ok": true,
+      "count": 10,
+      "error": ""
+    },
+    {
+      "source": "NPR Culture",
+      "ok": true,
+      "count": 10,
+      "error": ""
+    },
+    {
+      "source": "NPR Arts",
+      "ok": true,
+      "count": 10,
+      "error": ""
+    },
+    {
+      "source": "CNBC",
+      "ok": true,
+      "count": 30,
+      "error": ""
+    },
+    {
+      "source": "ScienceDaily Technology",
+      "ok": true,
+      "count": 60,
+      "error": ""
+    },
+    {
+      "source": "医工技能与产业动态",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "医学人才与转行动态",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "医疗 AI 与人才",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "器械研发与监管",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "Medical Device Network",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "ScienceDaily Health",
+      "ok": true,
+      "count": 60,
+      "error": ""
+    },
+    {
+      "source": "MedPage Today",
+      "ok": true,
+      "count": 20,
+      "error": ""
+    }
+  ],
+  "slug": "2026-10-27-今天-只看真正重要的"
+}
