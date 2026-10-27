@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Extract project package
         run: |
-          unzip -q dawn-brief-site-84e9bfaf37ca47928323da62159b9d67.zip -d .
+          unzip -oq dawn-brief-site-84e9bfaf37ca47928323da62159b9d67.zip -d .
           rm dawn-brief-site-84e9bfaf37ca47928323da62159b9d67.zip
           rm .github/workflows/bootstrap.yml
           git config user.name "dawn-brief-bot"
